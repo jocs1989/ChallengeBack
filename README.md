@@ -1,6 +1,31 @@
 # ChallengeBack
 
-Este proyecto permite obtener un archivo JSON desde una URL, procesarlo y guardar ciertos datos en un archivo CSV. Puedes ejecutar el script directamente desde la terminal y personalizar los parámetros, como la URL del archivo JSON y el nombre del archivo CSV de salida.
+¡Bienvenido! Nos gustaría saber más acerca de tus increíbles habilidades como **Back End Developer** y **Scrappers**, y la mejor manera es demostrarnos lo que eres capaz de lograr. Este proyecto consiste en crear un **script en Python** que procesa un archivo JSON, extrae propiedades específicas y las convierte en un archivo CSV.
+
+## Descripción del desafío
+
+El objetivo de este desafío es crear un script que obtenga y dé formato a las siguientes propiedades de un archivo JSON:
+
+- `allergens`
+- `sku`
+- `vegan`
+- `kosher`
+- `organic`
+- `vegetarian`
+- `gluten_free`
+- `lactose_free`
+- `package_quantity`
+- `Unit_size`
+- `net_weight`
+
+Estas propiedades se encuentran dentro de un nodo llamado **`custom_attributes`** en el archivo JSON.
+
+### URL del archivo JSON
+https://storage.googleapis.com/resources-prod-shelftia/scrapers-prueba/product.json
+### Salida esperada en formato CSV
+
+https://storage.googleapis.com/resources-prod-shelftia/scrapers-prueba/output-product.csv
+
 
 ## Requisitos
 
