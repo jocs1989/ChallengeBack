@@ -1,8 +1,9 @@
+
+from typing import List, Dict
+import argparse
+import csv
 import httpx
 import json
-import csv
-import argparse
-from typing import List, Dict
 
 # Constantes predeterminadas
 DEFAULT_URL = "https://storage.googleapis.com/resources-prod-shelftia/scrapers-prueba/product.json"
