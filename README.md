@@ -19,8 +19,19 @@ Para ejecutar el script con la URL y el archivo CSV predeterminados, simplemente
 ```bash
 python process_json_to_csv.py
 
+```
+### Proporcionar una URL personalizada
+
+Si deseas proporcionar una URL personalizada para el archivo JSON, puedes hacerlo con el parámetro --url:
+```bash
+python process_json_to_csv.py --url "https://storage.googleapis.com/resources-prod-shelftia/scrapers-prueba/product.json"
 
 ```
 
+### Proporcionar una URL personalizada
+Si también deseas especificar un nombre diferente para el archivo CSV de salida, puedes usar el parámetro --output junto con la URL personalizada:
 
+```bash
+python process_json_to_csv.py --url "https://nueva_url.com/product.json" --output "resultado.csv"
 
+```
